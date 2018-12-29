@@ -48,6 +48,18 @@ label[for="menu"] {
   display: block;
 }
 
+#menu-close {
+  display: none;
+}
+
+#menu:checked ~ #menu-open {
+  display: none;
+}
+
+#menu:checked ~ #menu-close {
+  display: inline;
+}
+
 main {
   flex-grow: 2;
   padding-right: 1vw;
@@ -55,6 +67,7 @@ main {
   padding-top: 1vh;
 
   background-image: url('../img/autodesk_mustang.jpg');
+  background-size: cover;
 }
 
 nav ul {
