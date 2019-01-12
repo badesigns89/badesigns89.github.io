@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+}
+
+nav {
+  display: inline-flex;
+  align-items: center;
+  min-height: 8.733%;
+  height: 8.733%;
+  flex-grow: 0;
+  background-color: #000000;
+  opacity: 0.9;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+article {
+  overflow: auto;
+  padding: 1%;
+  line-height: 2;
+  font-size: 2vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+article p {
+  margin-top: 0;
+}
+
+#profile-picture {
+  width: 25vw;
+  float: right;
+}
+
+#menu {
+  display: none;
+}
+
+label[for="menu"] {
+  color: white;
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+#menu:checked ~ ul {
+  display: block;
+}
+
+#menu-close {
+  display: none;
+}
+
+#menu:checked ~ #menu-open {
+  display: none;
+}
+
+#menu:checked ~ #menu-close {
+  display: inline;
+}
+
+main {
+  flex-grow: 2;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  padding-top: 1vh;
+
+  background-image: url('../img/autodesk_mustang.jpg');
+  background-size: cover;
+}
+
+nav ul {
+    list-style: none;
+    width: 30%;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 2vh;
+    position: absolute;
+    left: 0;
+    top: 8%;
+    display: none;
+    background-color: #000000;
+}
+
+nav ul li {
+  padding: 2%;
+}
+
+nav ul li a {
+  font-size: 2vh;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li:last-child {
+  margin-left: auto;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 2vh;
+}
+
+footer {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.social-button {
+  padding-left: 1vw;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.linkedin {
+  background: url('../img/linkedin_icon.svg') no-repeat left center;
+  background-size: 55%;
+}
+
+.instagram {
+  background: url('../img/instagram_icon.svg') no-repeat left center;
+  background-size: 55%;
+}
+
+.youtube {
+  background: url('../img/youtube_icon.svg') no-repeat left center;
+  background-size: 55%;
+}
+
+.xing {
+  background: url('../img/xing_icon.svg') no-repeat left center;
+  background-size: 55%;
+}
+
+.youtube-embedded-player {
+    height: 50vh;
+    width: 95vw;
+}
