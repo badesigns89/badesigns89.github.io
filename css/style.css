@@ -17,6 +17,12 @@ nav {
   padding-right: 1vw;
 }
 
+nav .header-name {
+  font-family: 'Kavivanar', cursive;
+  font-size: 3.5vh;
+  margin: auto;
+}
+
 article {
   overflow: auto;
   padding: 1%;
@@ -48,7 +54,12 @@ label[for="menu"] {
   display: block;
 }
 
+#menu-open {
+  width: 3.5vw;
+}
+
 #menu-close {
+  width: 3.5vw;
   display: none;
 }
 
@@ -89,6 +100,7 @@ nav ul li {
 
 nav ul li a {
   font-size: 2vh;
+  text-decoration: none;
   color: white;
 }
 
@@ -119,6 +131,12 @@ footer {
   padding-right: 1vw;
   background-color: #000000;
   opacity: 0.9;
+  min-height: 5%;
+  max-height: 7%;
+}
+
+.copyright {
+  font-size: 1em;
 }
 
 .social-button {
