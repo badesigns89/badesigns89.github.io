@@ -19,7 +19,7 @@ nav {
 
 nav .header-name {
   font-family: 'Kavivanar', cursive;
-  font-size: 3.5vh;
+  font-size: 1.5rem;
   margin: auto;
 }
 
@@ -27,7 +27,7 @@ article {
   overflow: auto;
   padding: 1%;
   line-height: 2;
-  font-size: 2vh;
+  font-size: 0.92rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -36,7 +36,8 @@ article p {
 }
 
 #profile-picture {
-  width: 25vw;
+  width: 45%;
+  max-width: 400px;
   float: right;
 }
 
@@ -46,7 +47,7 @@ article p {
 
 label[for="menu"] {
   color: white;
-  font-size: 3vh;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 
@@ -99,7 +100,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 2vh;
+  font-size: 0.93rem;
   text-decoration: none;
   color: white;
 }
@@ -121,7 +122,7 @@ footer ul li:last-child {
 
 footer ul li a {
   color: #ffffff;
-  font-size: 2vh;
+  font-size: 0.93rem;
 }
 
 footer {
@@ -136,7 +137,7 @@ footer {
 }
 
 .copyright {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .social-button {
