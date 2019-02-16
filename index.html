@@ -4,31 +4,40 @@
         <title>Bernard Abels 3D-Artis / Model</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bernard Abels is a 3D-Artist and Model based in Duesseldorf Germany">
+        <meta name="keywords" content="Bernard Abels Duessledorf Düsseldorf 3D-Artist Model Germany">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <nav>
-            <input id="menu" type="checkbox" />
-            <label id="menu-open" for="menu">&#9776;</label>
-            <label id="menu-close" for="menu">&#x2715;</label>
-            <ul>
-                <li>
-                    <a href="index.html">About me</a>
-                </li>
-                <li>
-                    <a href="videos.html">Videos</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-              </ul>
+          <input id="menu" type="checkbox" />
+          <label id="menu-open" for="menu">&#9776;</label>
+          <label id="menu-close" for="menu">&#x2715;</label>
+          <ul>
+              <li>
+                  <a href="index.html">About me</a>
+              </li>
+              <li>
+                  <a href="videos.html">Videos</a>
+              </li>
+          </ul>
+          <span class="header-name">Bernard Abels 3D-Artist / Model</span>
         </nav>
 
         <main>
             <article>
               <h1>About me</h1>
-              <img id="profile-picture" src="img/about_me.JPG" />
+              <img srcset="img/Bernard2/bernard2_320.png 320w,
+                           img/Bernard2/bernard2_640.png 640w,
+                           img/Bernard2/bernard2_800.png 800w,
+                           img/Bernard2/bernard2_1024.png 1024w"
+                    sizes="(max-width: 320px) 320px,
+                           (max-width: 640px) 640px,
+                           (max-width: 800px) 800px,
+                           1024px"
+                id="profile-picture" alt="image of bernard abels" src="img/Bernard2/bernard2_1024.png" />
               <p>I Bernard Abels was born on december 30 in 1989 in Duesseldorf Germany. <br />
                  I graduated as Signmaker and studied later 3D-Animation and Visual Effects in Cologne. <br />
                  During a 15 months intensiv program I learned to work with Maya Autodesk and how to create digital Art. <br />
@@ -37,7 +46,7 @@
               </p>
             </article>
         </main>
-        
+
         <footer>
             <ul>
                 <li>
@@ -53,7 +62,7 @@
                     <a class="social-button instagram" href="https://www.instagram.com/badesigns89/"></a>
                 </li>
                 <li>
-                    <a class="align-right" href="impressum.html">Impressum</a>
+                    <span class="align-right copyright">&copy; 2019 Bernard Abels. All rights reserved.</a>
                 </li>
             </ul>
         </footer>
